@@ -29,7 +29,7 @@ export default class Header extends Component {
         <H.Header>
           
            <H.Ul>
-             <li><Link to="/home"> <H.FigureOne >
+             <li><Link to="/"> <H.FigureOne >
             <H.logoimgOne src={Logo1} alt="Logo_do_site"/>
             <H.logoimgTwo src={Logo2} alt="Logo_do_site"/>
            </H.FigureOne></Link></li>
@@ -51,7 +51,7 @@ export default class Header extends Component {
           
         </H.Header>
           <Routes>
-           <Route path="/home" element={<Home/>} />
+           <Route path="/" element={<Home/>} />
            <Route path="/topmovies" element={<TopMovies />} />
            <Route path="/newmovies" element={<NewMovies />} />
            <Route path="/topseries" element={<TopSeries />} />
